@@ -6,7 +6,7 @@ LINKERFLAG = -lm
 PYFLAGl =`pkg-config --cflags python3`
 PYFLAGc =`pkg-config --cflags python3`
 
-SRCS := generate.cc plot.cc
+SRCS := generate.cc
 BINS := $(SRCS:%.cc=%)
 OBJS := $(SRCS:%.cc=%.o)
 
